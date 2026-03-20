@@ -1,0 +1,48 @@
+{
+  "name": "md2html-self",
+  "version": "1.0.0",
+  "description": "Convert Markdown files with Mermaid diagrams, code blocks, and tables into beautiful, self-contained HTML documents with dark theme, sidebar TOC, and pre-rendered SVG diagrams.",
+  "type": "module",
+  "bin": {
+    "md2html": "./bin/md2html.mjs"
+  },
+  "main": "./src/converter.mjs",
+  "exports": {
+    ".": "./src/converter.mjs"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node bin/md2html.mjs --help"
+  },
+  "keywords": [
+    "markdown",
+    "html",
+    "mermaid",
+    "converter",
+    "self-contained",
+    "static",
+    "documentation",
+    "dark-theme",
+    "cli",
+    "puppeteer",
+    "svg"
+  ],
+  "author": "GREENGANY GmbH",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "marked": "^15.0.0",
+    "puppeteer": "^24.0.0"
+  }
+}
