@@ -1,5 +1,5 @@
 {
-  "name": "@greengany/md2html",
+  "name": "md2html-self",
   "version": "1.0.0",
   "description": "Convert Markdown files with Mermaid diagrams, code blocks, and tables into beautiful, self-contained HTML documents with dark theme, sidebar TOC, and pre-rendered SVG diagrams.",
   "type": "module",
